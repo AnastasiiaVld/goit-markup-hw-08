@@ -1,3 +1,10 @@
+.section-about {
+    display: none;
+    @media screen and (min-width: 1200px) {
+     display: block;   
+    }
+}
+
 .main-about__list {
     display: flex;
 }
