@@ -1,0 +1,31 @@
+.main-info__list {
+    display: flex;
+}
+
+.main-info {
+    padding-bottom: 0;
+}
+
+.main-info__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+.main-info__title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    padding-bottom: 10px;
+}
+
+.main-info__text {
+    font-size: 14px;
+    color: var(--Second-color);
+    line-height: 1.71;
+}

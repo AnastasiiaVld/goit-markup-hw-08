@@ -1,0 +1,13 @@
+.footer__contact {
+    font-size: 14px;
+    color: hsla(0, 0%, 100%, 0.6);
+    text-decoration: none;
+    margin-top: 9px;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+     &:hover,
+     &:focus {
+            color: var(--Color-accent);
+        }
+}

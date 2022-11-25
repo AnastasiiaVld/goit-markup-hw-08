@@ -1,0 +1,33 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--Main-color);
+    background-color: var(--White-colorhite-color);
+}
+
+a {
+    color: inherit;
+}
+
+a:visited {
+    color: var(--Main-color);
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.17;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}

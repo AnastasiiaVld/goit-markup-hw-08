@@ -1,0 +1,37 @@
+.footer {
+    background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer__logo {
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 1.19;
+    color: var(--White-color);
+
+    &:visited {
+            color: var(--White-color);
+     }
+}
+
+.footer__logo span {
+    color: var(--Color-accent);
+}
+
+.footer__address {
+    font-size: 14px;
+    color: var(--White-color);
+    line-height: 1.71;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: 70px;
+}

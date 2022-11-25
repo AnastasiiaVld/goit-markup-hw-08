@@ -1,0 +1,33 @@
+// utils styles
+@import './utils/vars';
+
+
+// base styles 
+@import './base/base';
+@import './base/reset';
+@import './base/commomn.scss';
+
+
+// components styles
+@import './components/container';
+@import './components/header';
+@import './components/header-portfolio';
+@import './components/navigation';
+@import './components/main-heading';
+@import './components/main-info';
+@import './components/main-team';
+@import './components/main-about';
+@import './components/clients';
+@import './components/footer';
+@import './components/footer-social';
+@import './components/footer-mailing';
+@import './components/footer-contact';
+@import './components/main-filter-portfolio';
+@import './components/main-goods-portfolio';
+@import './components/backdrop';
+@import './components/modal';
+
+
+
+
+
