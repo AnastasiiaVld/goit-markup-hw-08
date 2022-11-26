@@ -1,21 +1,11 @@
 .footer-mailing__form {
     display: flex;
-}
-
-.footer-mailing__form-input {
-    width: 358px;
-    padding: 15px 16px;
-    background: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 4px;
-    color: var(--White-color);
-    outline: none;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-    &:hover,
-    &:focus {
-            border-color: var(--Color-accent);
-        }
+    flex-direction: column;
+    align-items: center;
+    
+    @media screen and (min-width: 1200px) {
+       flex-direction: row;
+  }
 }
 
 .footer-mailing__text {
@@ -25,6 +15,33 @@
     margin-bottom: 20px;
     color: var(--White-color);
     text-transform: uppercase;
+    text-align: center;
+
+    @media screen and (min-width: 1200px) {
+        text-align: inherit;
+    }
+}
+
+.footer-mailing__form-input {
+    width: 450px;
+    padding: 15px 16px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    color: var(--White-color);
+    outline: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-bottom: 20px;
+
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 0px;
+        width: 368px
+    }
+
+    &:hover,
+    &:focus {
+            border-color: var(--Color-accent);
+        }
 }
 
 .footer-mailing__btn {

@@ -1,21 +1,29 @@
 .footer-social {
-    margin-right: 93px;
-}
+    margin-bottom: 60px;
 
-.footer-social__list {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+    @media screen and (min-width: 1200px) {
+    margin-right: 93px;
+    }
 }
 
 .foter-social__title {
     font-weight: 700px;
     font-size: 14px;
     line-height: calc(16 / 14);
-    width: 116px;
     margin-bottom: 20px;
     color: var(--White-color);
     text-transform: uppercase;
+    text-align: center;
+
+    @media screen and (min-width: 1200px) {
+       text-align: inherit; 
+    }
+}
+
+.footer-social__list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
 .footer-social__link {

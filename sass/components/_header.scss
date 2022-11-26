@@ -17,7 +17,7 @@
     margin-right: 93px;
 
     &:visited {
-            color: var(--Main-color);
+         color: var(--Main-color);
     }
 }
 
@@ -30,11 +30,19 @@
 }
 
 .header-contact__container {
-    display: flex;
-    justify-content: center;
+    display: none;
+
+    @media screen and (min-width: 768px) {
+        display: block;
+        }
+
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        justify-content: center;
+     }
 }
 
-.header-contact__item>a {
+.header-contact__item {
     font-size: 14px;
     font-weight: 500;
     color: var(--Second-color);
@@ -43,6 +51,11 @@
     display: flex;
     align-items: center;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 10px;
+        
+    }
 }
 
 .header-contact__mail-icon,

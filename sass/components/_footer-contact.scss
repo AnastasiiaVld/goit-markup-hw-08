@@ -11,3 +11,31 @@
             color: var(--Color-accent);
         }
 }
+
+.footer-container__contact {
+    text-align: center;
+    margin-bottom: 60px;
+
+   @media screen and (min-width: 768px) and (max-width: 1199px) {
+          margin-right: 165px;
+        }
+
+    @media screen and (min-width: 1200px) {
+        text-align: inherit; 
+        margin-bottom: 0;
+    }
+}
+
+.footer__address {
+    font-size: 14px;
+    color: var(--White-color);
+    line-height: 1.71;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+    @media screen and (min-width: 1200px) {
+    margin-right: 70px;
+    }
+}

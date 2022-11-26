@@ -1,8 +1,15 @@
 .nav__list {
-    display: flex;
-    margin-right: 344px;
-}
+    display: none;
 
+    @media screen and (min-width: 768px) {
+        display: flex;
+        margin-right: 97px;
+    }
+
+     @media screen and (min-width: 1200px) {
+        margin-right: 318px;
+     } 
+}
 
 .nav__item a {
     font-size: 14px;
