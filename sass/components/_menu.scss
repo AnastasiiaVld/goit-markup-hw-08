@@ -1,6 +1,6 @@
 .menu-toggle {
-  margin-left: auto;
   display: flex;
+  margin-left: auto;
   align-items: center;
   justify-content: center;
 
@@ -77,6 +77,10 @@ margin-bottom: auto;
 
 .mobile-menu__item:not(:last-child) {
    margin-bottom: 32px;
+}
+
+.menu-active a {
+    color: var(--Color-accent);
 }
 
 .mobile-contacts__link {
