@@ -1,10 +1,10 @@
 :root {
   --Main-color: #212121;
   --Second-color: #757575;
-  --White-color: #FFFFFF;
-  --Color-accent: #2196F3;
-  --Color-grey: #AFB1B8;
-  --other-color: #F5F4FA;
+  --White-color: #ffffff;
+  --Color-accent: #2196f3;
+  --Color-grey: #afb1b8;
+  --other-color: #f5f4fa;
 }
 
 body {
