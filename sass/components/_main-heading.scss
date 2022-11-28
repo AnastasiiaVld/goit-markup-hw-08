@@ -11,7 +11,7 @@
 }
 
 .main-heading__overlay {
-  // height: 400px;
+  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
   background-size: cover;
@@ -53,6 +53,7 @@
         url(../images/hero/imgmm_@2x.jpg);
     }
   }
+
   @media screen and (min-width: 1200px) {
     background-image: linear-gradient(
         to right,
@@ -76,13 +77,16 @@
 .main-heading__title {
   margin-right: auto;
   margin-left: auto;
-  width: 360px;
   font-size: 26px;
   font-weight: 900;
   color: var(--White-color);
   line-height: calc(42 / 26);
   margin-bottom: 30px;
   text-transform: uppercase;
+
+  @media screen and (min-width: 480px) and (max-width: 1199px) {
+    width: 360px;
+  }
 
   @media screen and (min-width: 1200px) {
     width: 696px;

@@ -1,75 +1,76 @@
 .footer-mailing__form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-    @media screen and (min-width: 1200px) {
-       flex-direction: row;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media screen and (min-width: 1200px) {
+    flex-direction: row;
   }
 }
 
 .footer-mailing__text {
-    font-weight: 700px;
-    font-size: 14px;
-    line-height: calc(16 / 14);
-    margin-bottom: 20px;
-    color: var(--White-color);
-    text-transform: uppercase;
-    text-align: center;
+  font-weight: 700px;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  margin-bottom: 20px;
+  color: var(--White-color);
+  text-transform: uppercase;
+  text-align: center;
 
-    @media screen and (min-width: 1200px) {
-        text-align: inherit;
-    }
+  @media screen and (min-width: 1200px) {
+    text-align: inherit;
+  }
 }
 
 .footer-mailing__form-input {
-    width: 450px;
-    padding: 15px 16px;
-    background: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 4px;
-    color: var(--White-color);
-    outline: none;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    margin-bottom: 20px;
+  width: 100%;
+  padding: 15px 16px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  color: var(--White-color);
+  outline: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 20px;
 
-    @media screen and (min-width: 1200px) {
-        margin-bottom: 0px;
-        width: 368px
-    }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0px;
+    width: 368px;
+  }
 
-    &:hover,
-    &:focus {
-            border-color: var(--Color-accent);
-        }
+  &:hover,
+  &:focus {
+    border-color: var(--Color-accent);
+  }
 }
 
 .footer-mailing__btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: calc(30 / 16);
-    width: 200px;
-    height: 50px;
-    background-color: var(--Color-accent);
-    color: var(--White-color);
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  width: 200px;
+  height: 50px;
+  background-color: var(--Color-accent);
+  color: var(--White-color);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 
-    margin-left: 12px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-left: 12px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:hover,
-    &:focus {
-            color: var(--Color-accent);
-            background-color: var(--White-color);
-        }
+  &:hover,
+  &:focus {
+    color: var(--Color-accent);
+    background-color: var(--White-color);
+  }
 }
 
 .footer-mailing__icon {
-    fill: currentColor;
-    margin-left: 10px;
+  fill: currentColor;
+  margin-left: 10px;
 }
