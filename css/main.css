@@ -820,10 +820,15 @@ img {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 20px;
 }
+@media screen and (min-width: 768px) {
+  .footer-mailing__form-input {
+    width: 450px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .footer-mailing__form-input {
     margin-bottom: 0px;
-    width: 368px;
+    width: 358px;
   }
 }
 .footer-mailing__form-input:hover, .footer-mailing__form-input:focus {
